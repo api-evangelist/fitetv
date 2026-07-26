@@ -1,7 +1,17 @@
 aid: fitetv
 name: Fitetv
-description: Fitetv is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FITE (fite.tv) is a live sports and entertainment streaming platform that now
+  operates as TrillerTV, run by Flipps Media Inc., a Triller Group Inc company.
+  The service specializes in combat sports and alternative entertainment,
+  streaming boxing, bare-knuckle fighting (BKFC), MMA, kickboxing, professional
+  wrestling, cricket (via the Willow by Cricbuzz channel), soccer, cycling, and
+  motorsports. It advertises thousands of hours of free video, more than a
+  thousand live events per year, and a multi-million-strong fan community, with
+  content delivered through free tiers, the TrillerTV+ subscription, and
+  pay-per-view events across web, mobile, and connected-TV apps. This API
+  Evangelist profile tracks the company's public web surface; no public
+  developer API or documentation program has been located.
 url: https://raw.githubusercontent.com/api-evangelist/fitetv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,57 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Streaming
+- Video
+- Sports
+- Combat Sports
+- Boxing
+- MMA
+- Wrestling
+- Pay Per View
+- Entertainment
+image: https://www.trillertv.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fitetv-domain-security.yml
+- type: Website
+  url: https://www.trillertv.com/
+- type: About
+  url: https://www.trillertv.com/p/about/
+- type: Support
+  url: https://support.trillertv.com/hc
+- type: HelpCenter
+  url: https://support.trillertv.com/hc
+- type: Blog
+  url: https://www.trillertv.com/news/
+- type: TermsOfService
+  url: https://www.trillertv.com/p/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.trillertv.com/p/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
